@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Blog</title>
+    
+<meta name="description" content="Explore Paradise Tourism - destinations, activities, gallery, and travel tips.">
+<meta name="keywords" content="tourism, travel, destinations, activities, gallery, blog">
+<meta name="author" content="Paradise Tourism">
+
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+    
+<nav>
+    <ul>
+        <li><a href="index.html" data-en="Home" data-es="Inicio">Home</a></li>
+        <li><a href="about.html" data-en="About" data-es="Acerca">About</a></li>
+        <li><a href="destinations.html" data-en="Destinations" data-es="Destinos">Destinations</a></li>
+        <li><a href="activities.html" data-en="Activities" data-es="Actividades">Activities</a></li>
+        <li><a href="gallery.html" data-en="Gallery" data-es="Galería">Gallery</a></li>
+        <li><a href="contact.html" data-en="Contact" data-es="Contacto">Contact</a></li>
+        <li><a href="blog.html" data-en="Blog" data-es="Blog">Blog</a></li>
+    </ul>
+    <div>
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+        <button onclick="toggleLanguage()">ES/EN</button>
+    </div>
+</nav>
+
+    <section><h2 data-en='Travel Blog' data-es='Blog de Viajes'>Travel Blog</h2><div class='search-bar'><input type='text' id='search-input' placeholder='Search posts...' onkeyup='searchPosts()'></div><div class='blog-post'><h3>Top 10 Things to Do</h3><p>Discover the best activities for your trip.</p></div><div class='blog-post'><h3>Local Food Guide</h3><p>Explore the flavors of our destination.</p></div><div class='blog-post'><h3>Adventure Spots</h3><p>Find thrilling experiences for adventure lovers.</p></div>
+<div class='share-buttons'>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">Share on Facebook</a>
+    <a href="https://twitter.com/intent/tweet?url=" target="_blank">Share on Twitter</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=" target="_blank">Share on LinkedIn</a>
+</div>
+</section>
+    <footer><p>&copy; 2025 Paradise Tourism. All rights reserved.</p></footer>
+    <script src='script.js'></script>
+</body>
+</html>
